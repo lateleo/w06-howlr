@@ -2,15 +2,23 @@
 <html>
   <head>
     <title>Howlr</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="/css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="/css/stylesheet.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="text/js" src="jquery.ui.touch-punch.min.js"></script>
 
-    <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   </head>
   <body>
-    <div class="container">
-      <%= yield %>
+    <div class="viewport-outer">
+      <div class="viewport-inner">
+        <header>
+          <div class="banner">
+            <a href="/" class="btn btn-logo">Howlr</a>
+          </div>
+        </header>
+        <%= yield %>
+      </div>
     </div>
   </body>
 </html>
