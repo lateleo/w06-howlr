@@ -60,7 +60,6 @@
 .feed {
   width: 75%;
   min-width: inherit;
-  margin: auto;
 }
 
 .banner-2 {
@@ -216,4 +215,16 @@
   color: #fff;
   background-color: #E86464;
   border-color: #E86464;
+}
+
+.packlist {
+  height: auto;
+  width: 100%;
+  border-color: #bbb;
+  border: 1px;
+  border-radius: 3px;
+  background-color: white;
+  display: block;
+  margin: auto;
+
 }
